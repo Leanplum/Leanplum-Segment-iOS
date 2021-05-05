@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB48F652642F50E006F2F7D /* LeanplumSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F632642F50E006F2F7D /* LeanplumSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB48F842642F572006F2F7D /* SEGLeanplumIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F7E2642F572006F2F7D /* SEGLeanplumIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB48F862642F572006F2F7D /* SEGLeanplumIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F802642F572006F2F7D /* SEGLeanplumIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB48F872642F572006F2F7D /* SEGLeanplumIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB48F812642F572006F2F7D /* SEGLeanplumIntegrationFactory.m */; };
+		2EB48F892642F572006F2F7D /* SEGLeanplumIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB48F832642F572006F2F7D /* SEGLeanplumIntegration.m */; };
+		2EB48F972642F95F006F2F7D /* Leanplum.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F922642F950006F2F7D /* Leanplum.xcframework */; };
+		2EB48F982642F95F006F2F7D /* Leanplum.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F922642F950006F2F7D /* Leanplum.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2EB48F9A2642F960006F2F7D /* Segment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F932642F951006F2F7D /* Segment.xcframework */; };
+		2EB48F9B2642F960006F2F7D /* Segment.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F932642F951006F2F7D /* Segment.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EB48F992642F95F006F2F7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2EB48F982642F95F006F2F7D /* Leanplum.xcframework in Embed Frameworks */,
+				2EB48F9B2642F960006F2F7D /* Segment.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EB48F602642F50E006F2F7D /* LeanplumSegment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanplumSegment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB48F632642F50E006F2F7D /* LeanplumSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanplumSegment.h; sourceTree = "<group>"; };
+		2EB48F642642F50E006F2F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB48F7E2642F572006F2F7D /* SEGLeanplumIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGLeanplumIntegrationFactory.h; sourceTree = "<group>"; };
+		2EB48F802642F572006F2F7D /* SEGLeanplumIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGLeanplumIntegration.h; sourceTree = "<group>"; };
+		2EB48F812642F572006F2F7D /* SEGLeanplumIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGLeanplumIntegrationFactory.m; sourceTree = "<group>"; };
+		2EB48F832642F572006F2F7D /* SEGLeanplumIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGLeanplumIntegration.m; sourceTree = "<group>"; };
+		2EB48F922642F950006F2F7D /* Leanplum.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Leanplum.xcframework; path = Carthage/Build/Leanplum.xcframework; sourceTree = "<group>"; };
+		2EB48F932642F951006F2F7D /* Segment.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Segment.xcframework; path = Carthage/Build/Segment.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB48F5D2642F50E006F2F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB48F972642F95F006F2F7D /* Leanplum.xcframework in Frameworks */,
+				2EB48F9A2642F960006F2F7D /* Segment.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB48F562642F50E006F2F7D = {
+			isa = PBXGroup;
+			children = (
+				2EB48F622642F50E006F2F7D /* LeanplumSegment */,
+				2EB48F612642F50E006F2F7D /* Products */,
+				2EB48F912642F950006F2F7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB48F612642F50E006F2F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB48F602642F50E006F2F7D /* LeanplumSegment.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB48F622642F50E006F2F7D /* LeanplumSegment */ = {
+			isa = PBXGroup;
+			children = (
+				2EB48F7D2642F572006F2F7D /* Classes */,
+				2EB48F6D2642F52E006F2F7D /* Resources */,
+			);
+			path = LeanplumSegment;
+			sourceTree = "<group>";
+		};
+		2EB48F6D2642F52E006F2F7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EB48F632642F50E006F2F7D /* LeanplumSegment.h */,
+				2EB48F642642F50E006F2F7D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2EB48F7D2642F572006F2F7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EB48F802642F572006F2F7D /* SEGLeanplumIntegration.h */,
+				2EB48F832642F572006F2F7D /* SEGLeanplumIntegration.m */,
+				2EB48F7E2642F572006F2F7D /* SEGLeanplumIntegrationFactory.h */,
+				2EB48F812642F572006F2F7D /* SEGLeanplumIntegrationFactory.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EB48F912642F950006F2F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EB48F922642F950006F2F7D /* Leanplum.xcframework */,
+				2EB48F932642F951006F2F7D /* Segment.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EB48F5B2642F50E006F2F7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB48F652642F50E006F2F7D /* LeanplumSegment.h in Headers */,
+				2EB48F862642F572006F2F7D /* SEGLeanplumIntegration.h in Headers */,
+				2EB48F842642F572006F2F7D /* SEGLeanplumIntegrationFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EB48F5F2642F50E006F2F7D /* LeanplumSegment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB48F682642F50E006F2F7D /* Build configuration list for PBXNativeTarget "LeanplumSegment" */;
+			buildPhases = (
+				2EB48F5B2642F50E006F2F7D /* Headers */,
+				2EB48F5C2642F50E006F2F7D /* Sources */,
+				2EB48F5D2642F50E006F2F7D /* Frameworks */,
+				2EB48F5E2642F50E006F2F7D /* Resources */,
+				2EB48F992642F95F006F2F7D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanplumSegment;
+			productName = LeanplumSegment;
+			productReference = 2EB48F602642F50E006F2F7D /* LeanplumSegment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB48F572642F50E006F2F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2EB48F5F2642F50E006F2F7D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2EB48F5A2642F50E006F2F7D /* Build configuration list for PBXProject "LeanplumSegment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB48F562642F50E006F2F7D;
+			productRefGroup = 2EB48F612642F50E006F2F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB48F5F2642F50E006F2F7D /* LeanplumSegment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB48F5E2642F50E006F2F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB48F5C2642F50E006F2F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB48F892642F572006F2F7D /* SEGLeanplumIntegration.m in Sources */,
+				2EB48F872642F572006F2F7D /* SEGLeanplumIntegrationFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EB48F662642F50E006F2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EB48F672642F50E006F2F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EB48F692642F50E006F2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/LeanplumSegment/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanplum.LeanplumSegment;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB48F6A2642F50E006F2F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/LeanplumSegment/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leanplum.LeanplumSegment;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB48F5A2642F50E006F2F7D /* Build configuration list for PBXProject "LeanplumSegment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB48F662642F50E006F2F7D /* Debug */,
+				2EB48F672642F50E006F2F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB48F682642F50E006F2F7D /* Build configuration list for PBXNativeTarget "LeanplumSegment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB48F692642F50E006F2F7D /* Debug */,
+				2EB48F6A2642F50E006F2F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB48F572642F50E006F2F7D /* Project object */;
+}
