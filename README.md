@@ -14,6 +14,10 @@ To install the Leanplum Segment integration, simply add this line to your
 ```ruby
 pod 'LeanplumSegment', '~> 1.1.3'
 ```
+or add this line to your Cartfile if you are using [Carthage](https://github.com/Carthage):
+```ruby
+github "Leanplum/LeanplumSegment"
+```
 That's it! Now you can use the Segment SDK and also the [advanced features](https://www.leanplum.com/docs#/docs) of the Leanplum SDK.
 
 ## Usage
