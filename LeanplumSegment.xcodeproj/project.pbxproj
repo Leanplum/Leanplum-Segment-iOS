@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5AC043264BF99200A5920C /* Segment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5AC042264BF99200A5920C /* Segment.framework */; };
+		2E5AC046264BF9AF00A5920C /* Leanplum.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5AC045264BF9AF00A5920C /* Leanplum.xcframework */; };
+		2E5AC047264BF9AF00A5920C /* Leanplum.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5AC045264BF9AF00A5920C /* Leanplum.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2EB48F652642F50E006F2F7D /* LeanplumSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F632642F50E006F2F7D /* LeanplumSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EB48F842642F572006F2F7D /* SEGLeanplumIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F7E2642F572006F2F7D /* SEGLeanplumIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EB48F862642F572006F2F7D /* SEGLeanplumIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB48F802642F572006F2F7D /* SEGLeanplumIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EB48F872642F572006F2F7D /* SEGLeanplumIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB48F812642F572006F2F7D /* SEGLeanplumIntegrationFactory.m */; };
 		2EB48F892642F572006F2F7D /* SEGLeanplumIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB48F832642F572006F2F7D /* SEGLeanplumIntegration.m */; };
-		2EB48F972642F95F006F2F7D /* Leanplum.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F922642F950006F2F7D /* Leanplum.xcframework */; };
-		2EB48F982642F95F006F2F7D /* Leanplum.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F922642F950006F2F7D /* Leanplum.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2EB48F9A2642F960006F2F7D /* Segment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F932642F951006F2F7D /* Segment.xcframework */; };
-		2EB48F9B2642F960006F2F7D /* Segment.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB48F932642F951006F2F7D /* Segment.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2EB48F992642F95F006F2F7D /* Embed Frameworks */ = {
+		2E5AC048264BF9AF00A5920C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2EB48F982642F95F006F2F7D /* Leanplum.xcframework in Embed Frameworks */,
-				2EB48F9B2642F960006F2F7D /* Segment.xcframework in Embed Frameworks */,
+				2E5AC047264BF9AF00A5920C /* Leanplum.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E5AC042264BF99200A5920C /* Segment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Segment.framework; path = Carthage/Build/iOS/Segment.framework; sourceTree = "<group>"; };
+		2E5AC045264BF9AF00A5920C /* Leanplum.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Leanplum.xcframework; path = Carthage/Build/Leanplum.xcframework; sourceTree = "<group>"; };
 		2EB48F602642F50E006F2F7D /* LeanplumSegment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanplumSegment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB48F632642F50E006F2F7D /* LeanplumSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanplumSegment.h; sourceTree = "<group>"; };
 		2EB48F642642F50E006F2F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,8 +41,6 @@
 		2EB48F802642F572006F2F7D /* SEGLeanplumIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGLeanplumIntegration.h; sourceTree = "<group>"; };
 		2EB48F812642F572006F2F7D /* SEGLeanplumIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGLeanplumIntegrationFactory.m; sourceTree = "<group>"; };
 		2EB48F832642F572006F2F7D /* SEGLeanplumIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGLeanplumIntegration.m; sourceTree = "<group>"; };
-		2EB48F922642F950006F2F7D /* Leanplum.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Leanplum.xcframework; path = Carthage/Build/Leanplum.xcframework; sourceTree = "<group>"; };
-		2EB48F932642F951006F2F7D /* Segment.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Segment.xcframework; path = Carthage/Build/Segment.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB48F972642F95F006F2F7D /* Leanplum.xcframework in Frameworks */,
-				2EB48F9A2642F960006F2F7D /* Segment.xcframework in Frameworks */,
+				2E5AC043264BF99200A5920C /* Segment.framework in Frameworks */,
+				2E5AC046264BF9AF00A5920C /* Leanplum.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +105,8 @@
 		2EB48F912642F950006F2F7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2EB48F922642F950006F2F7D /* Leanplum.xcframework */,
-				2EB48F932642F951006F2F7D /* Segment.xcframework */,
+				2E5AC045264BF9AF00A5920C /* Leanplum.xcframework */,
+				2E5AC042264BF99200A5920C /* Segment.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,7 +135,7 @@
 				2EB48F5C2642F50E006F2F7D /* Sources */,
 				2EB48F5D2642F50E006F2F7D /* Frameworks */,
 				2EB48F5E2642F50E006F2F7D /* Resources */,
-				2EB48F992642F95F006F2F7D /* Embed Frameworks */,
+				2E5AC048264BF9AF00A5920C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,7 +327,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/LeanplumSegment/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -356,7 +357,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/LeanplumSegment/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
