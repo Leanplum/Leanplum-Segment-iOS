@@ -16,7 +16,7 @@
         NSString *token = [settings objectForKey:@"clientKey"];
         bool isDevelopmentMode = [[settings objectForKey:@"devMode"] boolValue];
 
-        if (!appId || appId.length == 0) {
+        if (appId.length == 0) {
             @throw([NSException
                 exceptionWithName:@"Leanplum Error"
                            reason:[NSString
@@ -25,7 +25,7 @@
                                                        @"Segment settings."]
                          userInfo:nil]);
         }
-        if (!token || token.length == 0) {
+        if (token.length == 0) {
             @throw([NSException
                 exceptionWithName:@"Leanplum Error"
                            reason:[NSString

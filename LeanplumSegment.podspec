@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => "https://github.com/Leanplum/Leanplum-Segment-iOS.git", :tag => s.version.to_s }
 
-  s.source_files     = 'Pod/Classes/**/*'
+  s.source_files     = 'LeanplumSegment/Classes/**/*'
 
   s.dependency 'Analytics', '~> 4'
   s.dependency 'Leanplum-iOS-SDK', '~> 3'
